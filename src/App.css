@@ -1,0 +1,309 @@
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  top:350%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+:root {
+  --background-color: #f2f2f2; /* default light background color */
+}
+
+.light {
+  --background-color: #f2f2f2;
+}
+
+.dark {
+  --background-color: #333;
+}
+.comment {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.comment img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.info {
+  flex: 1;
+}
+
+.username {
+  font-weight: bold;
+  color: #333;
+}
+
+.relative-time {
+  color: #666;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.issue {
+  font-weight: bold;
+  color: #337ab7;
+  margin-top: 10px;
+}
+
+.message {
+  margin-top: 10px;
+  color: #666;
+}
+
+.comment:last-child {
+  border-bottom: none;
+}
+
+
+.designer-list {
+  position: relative;
+  top: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.designer-list li {
+  margin: 20px;
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.designer-list li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.designer-list li span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.designer-list li span:nth-child(2) {
+  font-weight: bold;
+}
+
+.designer-list li span:nth-child(3) {
+  color: #666;
+  font-size: 14px;
+}
+
+.designer-list li span:nth-child(4) {
+  color: #666;
+  font-size: 14px;
+}
+.designer-list h1{
+  position:absolute;
+  top: -20%;
+
+}
+
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.language-switcher {
+  margin-right: 20px;
+}
+
+.language-switcher button {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.language-switcher button:hover {
+  background-color: #555;
+}
+
+.theme-switcher {
+  margin-right: 20px;
+}
+
+.theme-switcher button {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.theme-switcher button:hover {
+  background-color: #555;
+}
+
+.week-number {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+
+.dark-mode {
+
+  background-color: #333 !important;
+  color: #ffffff !important;
+}
+
+
+.dark-mode .header-container button{
+  background-color: #444;
+}
+
+.dark-mode .language-switcher button {
+  background-color: #555;
+  color: #ffffff;
+}
+.topcomm {
+  position: relative;
+  text-align: center;
+  top: 0px;
+  transform: translateX(0%);
+}
+.strancadiz{
+  background-color: #444;
+  color: #fff;
+  position: relative;
+  left: -3%;
+}
+.dark-mode header{
+  background-color: #6d6a6a;
+}
+
+.dark-mode .container tr{
+  color: #000000;
+}
+.dark-mode .container label{
+  color: #000000;
+}
+.glav{
+  background-color: #444;
+  color: #fff;
+  position: relative;
+  left: 10%;
+}
+.zadach{
+  background-color: #444;
+  color: #fff;
+  position: relative;
+  left: 20%;
+
+}
+.FinancialCalculator {
+  position:relative;
+  top: 10%;
+  left: 10%;
+  height: 65%;
+  width: 80%;
+  padding: 20px;
+  margin: 20px;
+
+
+
+}
+
+
+.FinancialCalculator ul li span.stripe {
+  text-decoration: none;
+}
+.FinancialCalculator ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;display: inline;
+}
+
+.FinancialCalculator li {
+  padding: 10px;
+  width: 30%;
+
+  
+  border-bottom: 1px solid #ccc;
+}
+
+.FinancialCalculator li:last-child {
+  border-bottom: none;
+}
+
+.Recharts-wrapper {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  
+  left: 45%;
+  top: -30%;
+}
+
+.Recharts-tooltip {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Recharts-tooltip-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Recharts-line {
+  stroke-width: 2px;
+}
+
+.Recharts-xaxis {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.Recharts-yaxis {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.boxx{
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+}
+.pie-chart-container{
+  position: relative;
+  background-color: rgb(255, 255, 255,0);
+  width: 20%;
+  left: 55%;
+  top: -115%;
+}
