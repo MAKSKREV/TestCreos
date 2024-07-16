@@ -9,7 +9,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 :root {
-  --background-color: #f2f2f2; /* default light background color */
+  --background-color: #f2f2f2; 
 }
 
 .light {

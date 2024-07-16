@@ -85,7 +85,7 @@ const FinancialCalculator: React.FC<FinancialCalculatorProps> = ({ language = 'e
         {language === 'RU' ? 'Расходы' : 'Expenses'} - {item.expenses}, 
         {language === 'RU' ? 'Прибыль' : 'Profit'} - {item.profit}
       </span>
-      <span className="stripe"></span> {/* add the stripe element */}
+      <span className="stripe"></span> 
     </li>
   ))}
 </ul>

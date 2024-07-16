@@ -1,4 +1,3 @@
-// App.tsx
 import React, { useState } from 'react';
 import CommentList from './components/comments.tsx';
 import Dizigner from './components/Topdizigner.tsx';
